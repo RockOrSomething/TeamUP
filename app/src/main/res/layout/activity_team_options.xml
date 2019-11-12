@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".TeamOptions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/typeCodeHereText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type your team invitation code here:" />
+
+        <EditText
+            android:id="@+id/invitationCodeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/TeamOptionsPlaceholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Create a New Team:\nType the name below" />
+
+        <EditText
+            android:id="@+id/newTeamName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"/>
+
+    </LinearLayout>
+
+    <!--There has to be a prettier way to do this, than hard-coding it via virtual pixels...-->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backToMainFromTeamOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="launchMain"
+            android:text="Back to main menu" />
+    </LinearLayout>
+
+</LinearLayout>

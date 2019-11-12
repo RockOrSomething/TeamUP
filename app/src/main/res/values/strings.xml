@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TeamUP!</string>
+    <string name="about_button_label">About</string>
+    <string name="copyright_version_statement">Copyright 2019 RockSoft -- Version 0.2, CAO 11NOV19</string>
+    <string name="settings_button_label">Settings</string>
+    <string name="team_options_button_label">Team Options (Join / Create)</string>
+    <string name="about_narrative">TeamUP! was initially conceived at zero-dark-stupid while doing 8-ct body builders.
+        Two of the author’s teammates had fallen back asleep after texting that they were ‘up’ and on time.
+        As a result, the team was late to the early morning workout and the cadre ensured they Paid The Man before beginning the day.
+        \n\n
+        “Wouldn’t it be nice to avoid this for the future?”\n
+        “Someone should build an app for that…”
+        \n\n
+        So, young bucks paying your dues, here you go!
+        \n\n
+        This app is FREE, a gift from the greybeard author to the next generation.  The server that runs it costs real money, however.
+        See below for the current account balance and burn rate.  If it’s running low – Officers, click on the balance to throw in a few bucks and keep the lights on.
+    </string>
+    <string name="account_balance">TeamUP! /n Account Balance</string>
+    <string name="burn_rate">Burn Rate /n (Daily server cost)</string>
+</resources>
